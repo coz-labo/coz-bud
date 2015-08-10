@@ -21,6 +21,7 @@ module.exports = apeTmpl.readmeMdBud({
     links: require('./docs/links.json'),
     overview: null,
     vars: {
+        spec: require('./lib/spec.json')
     }
 });
 

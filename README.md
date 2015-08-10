@@ -49,6 +49,28 @@ bud({
 });
 ```
 
+Specification
+-------------
+
+
+## Supported Properties
+
+List of properties configurable in bud files.
+
+| Name | Type | Default | Description |
+| ----- | ----- | ----- | ----- |
+| `` | string|object | &#x27;handlebars&#x27; | Template engine name or engine itself |
+| `` | string | process.cwd() | Working directory path |
+| `` | object |  | Data which template render with |
+| `` | boolean | false | Make parent directories if needed |
+| `` | object |  | Optional settings for template engine |
+| `` | boolean | false | Should overwrite file when already exists, or not |
+| `` | string|number | &#x27;644&#x27; | Permission of generated files. (eg., &#x27;444&#x27; for readonly files) |
+| `` | string |  | Destination file path. If not provided, guess from bud file path |
+| `` | string|function | &#x27;json&#x27; | Template file path or registered template name or template function |
+
+
+
 
 <!-- Sections Start -->
 
