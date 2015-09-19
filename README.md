@@ -20,6 +20,7 @@ coz-bud
 [bd_gemnasium_shield_url]: https://gemnasium.com/coz-repo/coz-bud.svg
 [bd_npm_url]: http://www.npmjs.org/package/coz-bud
 [bd_npm_shield_url]: http://img.shields.io/npm/v/coz-bud.svg?style=flat
+[bd_bower_badge_url]: https://img.shields.io/bower/v/coz-bud.svg?style=flat
 
 <!-- Badge End -->
 
@@ -33,9 +34,13 @@ bud for coz
 
 
 
+
 <!-- Sections Start -->
 <a name="sections"></a>
 
+<!-- Section from "doc/readme/02.Usage.md.hbs" Start -->
+
+<a name="section-doc-readme-02-usage-md"></a>
 Usage
 ----
 
@@ -49,6 +54,11 @@ bud({
 });
 ```
 
+<!-- Section from "doc/readme/02.Usage.md.hbs" End -->
+
+<!-- Section from "doc/readme/03.Spec.md.hbs" Start -->
+
+<a name="section-doc-readme-03-spec-md"></a>
 Specification
 -------------
 
@@ -70,6 +80,8 @@ List of properties configurable in bud files.
 | `` | string|function | &#x27;json&#x27; | Template file path or registered template name or template function |
 
 
+
+<!-- Section from "doc/readme/03.Spec.md.hbs" End -->
 
 
 <!-- Sections Start -->

@@ -10,11 +10,9 @@
 var Bud = require('./bud'),
     create = require('./create');
 
-var bud = function(config){
-    return create(config);
-};
+var lib = create.bind(this);
 
-bud.create = create;
-bud.Bud = bud;
+lib.create = create;
+lib.Bud = Bud;
 
-module.exports = bud;
+module.exports = lib;
