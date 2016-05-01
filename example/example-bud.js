@@ -1,5 +1,7 @@
-var bud = require('bud');
+'use strict'
+
+const bud = require('bud')
 
 bud({
 
-});
+})

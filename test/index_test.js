@@ -3,14 +3,14 @@
  * Runs with nodeunit.
  */
 
-"use strict";
+'use strict'
 
-var index = require('../lib/index.js');
+const index = require('../lib/index.js')
 
-exports['Eval properties.'] = function(test){
-    test.ok(index);
-    test.equal(typeof index, 'function');
-    test.ok(index.create);
-    test.ok(index.Bud);
-    test.done();
-};
+exports[ 'Eval properties.' ] = function (test) {
+  test.ok(index)
+  test.equal(typeof index, 'function')
+  test.ok(index.create)
+  test.ok(index.Bud)
+  test.done()
+}
