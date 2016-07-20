@@ -1,0 +1,40 @@
+{
+  "name": "coz-bud",
+  "version": "3.0.1",
+  "description": "bud for coz",
+  "main": "lib",
+  "scripts": {
+    "test": "./ci/test.js"
+  },
+  "repository": "coz-repo/coz-bud",
+  "keywords": [
+    "coz",
+    "bud"
+  ],
+  "author": {
+    "name": "Taka Okunishi",
+    "url": "http://okunishitaka.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coz-repo/coz-bud/issues"
+  },
+  "homepage": "https://github.com/coz-repo/coz-bud#readme",
+  "dependencies": {
+    "argx": "^2.0.2"
+  },
+  "devDependencies": {
+    "ape-covering": "^3.0.1",
+    "ape-releasing": "^3.0.8",
+    "ape-reporting": "^3.0.0",
+    "ape-tasking": "^3.1.2",
+    "ape-testing": "^3.0.1",
+    "ape-tmpl": "^5.0.1",
+    "ape-updating": "^3.0.2",
+    "coz": "^5.0.3",
+    "coz-tmpl": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=4"
+  }
+}

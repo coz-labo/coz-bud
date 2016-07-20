@@ -1,12 +1,12 @@
 {
   "name": "coz-bud",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "bud for coz",
   "main": "lib",
   "scripts": {
     "test": "./ci/test.js"
   },
-  "repository": "coz-repo/coz-bud",
+  "repository": "coz-labo/coz-bud",
   "keywords": [
     "coz",
     "bud"
@@ -17,22 +17,22 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/coz-repo/coz-bud/issues"
+    "url": "https://github.com/coz-labo/coz-bud/issues"
   },
-  "homepage": "https://github.com/coz-repo/coz-bud#readme",
+  "homepage": "https://github.com/coz-labo/coz-bud#readme",
   "dependencies": {
     "argx": "^2.0.2"
   },
   "devDependencies": {
-    "ape-covering": "^3.0.1",
-    "ape-releasing": "^3.0.8",
-    "ape-reporting": "^3.0.0",
-    "ape-tasking": "^3.1.2",
-    "ape-testing": "^3.0.1",
-    "ape-tmpl": "^5.0.1",
-    "ape-updating": "^3.0.2",
-    "coz": "^5.0.3",
-    "coz-tmpl": "^1.2.0"
+    "ape-covering": "^3.0.3",
+    "ape-releasing": "^4.0.2",
+    "ape-reporting": "^3.0.1",
+    "ape-tasking": "^4.0.7",
+    "ape-testing": "^4.0.1",
+    "ape-tmpl": "^5.0.13",
+    "ape-updating": "^4.0.4",
+    "coz": "^6.0.12",
+    "coz-tmpl": "^1.2.1"
   },
   "engines": {
     "node": ">=4"
