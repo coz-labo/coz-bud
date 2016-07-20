@@ -1,16 +1,17 @@
 /**
  * Test for index.
- * Runs with nodeunit.
+ * Runs with mocha.
  */
 
 'use strict'
 
 const index = require('../lib/index.js')
+const assert = require('assert')
 
-exports[ 'Eval properties.' ] = function (test) {
-  test.ok(index)
-  test.equal(typeof index, 'function')
-  test.ok(index.create)
-  test.ok(index.Bud)
-  test.done()
-}
+it('Eval properties.', (done) => {
+  assert.ok(index)
+  assert.equal(typeof index, 'function')
+  assert.ok(index.create)
+  assert.ok(index.Bud)
+  done()
+})

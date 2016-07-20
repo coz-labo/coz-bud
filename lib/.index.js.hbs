@@ -6,13 +6,12 @@
 
 'use strict'
 
+const Bud = require('./bud')
+const create = require('./create')
 
-var Bud = require('./bud'),
-    create = require('./create')
+let lib = create.bind(this)
 
-var lib = create.bind(this)
+lib.create = create
+lib.Bud = Bud
 
-lib.create = create;
-lib.Bud = Bud;
-
-module.exports = lib;
+module.exports = lib

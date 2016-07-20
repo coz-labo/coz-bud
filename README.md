@@ -60,9 +60,8 @@ Usage
 
 const bud = require('bud')
 
-bud({
+bud({})
 
-})
 ```
 
 
@@ -119,6 +118,6 @@ Links
 
 + [coz][coz_url]
 
-[coz_url]: https://github.com/coz-repo/coz
+[coz_url]: https://github.com/coz-labo/coz
 
 <!-- Links End -->

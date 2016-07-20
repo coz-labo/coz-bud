@@ -1,19 +1,20 @@
 /**
  * Test case for module:leaf/lib/bud.Bud
- * Runs with nodeunit.
+ * Runs with mocha.
  */
 
 'use strict'
 
 const Bud = require('../lib/bud.js')
+const assert = require('assert')
 
-exports[ 'Create bud config.' ] = function (test) {
-  var config = new Bud({
+it('Create bud config.', (done) => {
+  let config = new Bud({
     path: 'foo/bar'
   })
-  test.ok(config)
-  var config2 = new Bud(config)
-  test.ok(config2)
-  test.done()
-}
+  assert.ok(config)
+  let config2 = new Bud(config)
+  assert.ok(config2)
+  done()
+})
 

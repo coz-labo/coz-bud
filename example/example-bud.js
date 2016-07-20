@@ -2,6 +2,4 @@
 
 const bud = require('bud')
 
-bud({
-
-})
+bud({})

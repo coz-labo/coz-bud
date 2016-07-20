@@ -6,10 +6,10 @@
 
 'use strict'
 
-process.chdir(`${__dirname}/..`)
-
 const apeTasking = require('ape-tasking')
 const apeReleasing = require('ape-releasing')
+
+process.chdir(`${__dirname}/..`)
 
 apeTasking.runTasks('release', [
   () => apeReleasing.releasePackage({

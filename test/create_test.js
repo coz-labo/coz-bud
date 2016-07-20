@@ -1,21 +1,14 @@
 /**
  * Test case for create.
- * Runs with nodeunit.
+ * Runs with mocha.
  */
 'use strict'
 
 const create = require('../lib/create.js')
+const assert = require('assert')
 
-exports.setUp = function (done) {
+it('Create', (done) => {
+  assert.ok(create({}))
   done()
-}
-
-exports.tearDown = function (done) {
-  done()
-}
-
-exports[ 'Create' ] = function (test) {
-  test.ok(create({}))
-  test.done()
-}
+})
 
