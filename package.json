@@ -1,6 +1,6 @@
 {
   "name": "coz-bud",
-  "version": "3.0.3",
+  "version": "4.0.0",
   "description": "bud for coz",
   "main": "lib",
   "scripts": {
@@ -24,16 +24,15 @@
     "argx": "^2.0.2"
   },
   "devDependencies": {
-    "ape-covering": "^3.0.3",
     "ape-releasing": "^4.0.2",
     "ape-reporting": "^3.0.1",
     "ape-tasking": "^4.0.7",
-    "ape-testing": "^4.0.1",
     "ape-tmpl": "^5.0.13",
     "ape-updating": "^4.0.4",
     "coz": "^6.0.12"
   },
   "engines": {
-    "node": ">=4"
+    "node": ">=6",
+    "npm": ">=3"
   }
 }
