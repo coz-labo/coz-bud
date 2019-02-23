@@ -11,16 +11,16 @@ module.exports = {
   mode: '444',
   data: {
     about: spec.about,
-    get properties () {
+    get properties() {
       return Object.keys(spec.properties).map(function (key) {
-        var data = spec.properties[ key ];
-        data.optional = !data.required;
-        data.name = key;
-        return data;
+        const data = spec.properties[key]
+        data.optional = !data.required
+        data.name = key
+        return data
       })
     }
   }
-};
+}
 
 if (!module.parent) {
   require('coz').render(__filename)
